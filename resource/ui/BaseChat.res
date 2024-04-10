@@ -7,7 +7,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"2"
-		"ypos"					"230"
+		"ypos"					"180"
 		"wide"					"250"
 		"tall"					"120"
 		"PaintBackgroundType"	"2"
@@ -43,7 +43,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"Default"				"0"		
+		"Default"				"0"
 	}
 
 	"HudChatHistory"

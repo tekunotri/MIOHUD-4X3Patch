@@ -8,7 +8,7 @@
 		"name_width"	"57"
 		"horiz_inset"	"2"
 	}
-	
+
 	"RoundSignModel"
 	{
 		"ControlName"			"CModelPanel"
@@ -24,7 +24,7 @@
 		"enabled"				"1"
 		"fov"					"70"
 		"proportionaltoparent"	"1"
-		
+
 		"model"
 		{
 			"modelname"	"models/props_ui/banner.mdl"
@@ -36,20 +36,20 @@
 			"origin_y"			"0"
 			"origin_z"			"62"
 			"spotlight"			"1"
-			
+
 			"animation"
 			{
 				"name"			"ref"
 				"sequence"		"ref"
 				"default"		"1"
 			}
-			
+
 			"animation"
 			{
 				"name"			"intro"
 				"sequence"		"intro"
 			}
-			
+
 			"animation"
 			{
 				"name"			"outro"
@@ -57,9 +57,9 @@
 			}
 		}
 	}
-	
+
 	"CountdownLabel"
-	{	
+	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"CountdownLabel"
 		"font"					"HudFontGiant"
@@ -77,16 +77,16 @@
 		"textAlignment"			"center"
 		"proportionaltoparent"	"1"
 		"fgcolor"				"TanLight"
-		
+
 		if_readymode
 		{
 			"xpos"				"300"
 			"ypos"				"130"
 		}
 	}
-	
+
 	"CountdownLabelShadow"
-	{	
+	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"CountdownLabelShadow"
 		"font"					"HudFontGiant"
@@ -104,14 +104,14 @@
 		"textAlignment"			"center"
 		"fgcolor"				"Black"
 		"proportionaltoparent"	"1"
-		
+
 		if_readymode
 		{
 			"xpos"				"300"
 			"ypos"				"130"
 		}
-	}	
-	
+	}
+
 	"FrontParticlePanel"
 	{
 		"ControlName"			"CTFParticlePanel"
@@ -136,10 +136,10 @@
 				"loop"				"0"
 			}
 		}
-		
+
 		"paintbackground"		"0"
 	}
-	
+
 	"MatchDoors"
 	{
 		"ControlName"			"CModelPanel"
@@ -155,7 +155,7 @@
 		"enabled"				"1"
 		"fov"					"70"
 		"proportionaltoparent"	"1"
-		
+
 		"model"
 		{
 			"modelname"			"models/vgui/versus_doors.mdl"
@@ -166,26 +166,26 @@
 			"origin_x"			"120"
 			"origin_y"			"0"
 			"origin_z"			"-77"
-			
+
 			"animation"
 			{
 				"name"			"ref"
 				"sequence"		"ref"
 				"default"		"1"
 			}
-			
+
 			"animation"
 			{
 				"name"			"open"
 				"sequence"		"open"
 			}
-			
+
 			"animation"
 			{
 				"name"			"close"
 				"sequence"		"close"
 			}
-			
+
 			"animation"
 			{
 				"name"			"idle_closed"
@@ -193,7 +193,7 @@
 			}
 		}
 	}
-	
+
 	"RoundCounter"
 	{
 		"fieldName"				"RoundCounter"
@@ -201,8 +201,8 @@
 		"tall"					"0"
 		"visible"				"0"
 		"enabled"				"0"
-	}	
-	
+	}
+
 	"BGFrame"
 	{
 		"ControlName"			"EditablePanel"
@@ -212,9 +212,9 @@
 		"visible"				"0"
 		"enabled"				"0"
 	}
-	
+
 	"RankUpLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RankUpLabel"
 		"font"			"HudFontMediumSmallBold"
@@ -237,7 +237,7 @@
 	}
 
 	"RankUpShadowLabel"
-	{	
+	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RankUpShadowLabel"
 		"font"			"HudFontMediumSmallBold"
@@ -258,13 +258,13 @@
 		"proportionaltoparent"	"1"
 		"fgcolor"		"Black"
 	}
-	
+
 	"ObjectiveStatusTimePanel"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
-		"xpos"				"c-224"
-		"ypos"				"c143"
+		"xpos"				"c-240"
+		"ypos"				"c140"
 		"zpos"				"1"
 		"wide"				"170"
 		"tall"				"430"
@@ -277,7 +277,7 @@
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"2"
 		"delta_item_font"		"surface13"
-		
+
 		"TimePanelValue"
 		{
 			"ControlName"	"CExLabel"
@@ -293,9 +293,9 @@
 			"enabled"		"1"
 			"textAlignment"	"left"
 			"labelText"		"0:00"
-		}	
+		}
 	}
-	
+
 	"TeamStatus"
 	{
 		"ControlName"			"CTFTeamStatus"
@@ -307,27 +307,27 @@
 		"tall"					"75"
 		"visible"				"1"
 		"enabled"				"1"
-		
+
 		"max_size"				"19"
-		
+
 		"6v6_gap"				"4"
 		"12v12_gap"				"1"
-		
+
 		"team1_grow_dir"		"west"
 		"team1_base_x"			"c-45"
 		"team1_max_expand"		"133"
-		
+
 		"team2_grow_dir"		"east"
 		"team2_base_x"			"c47"
 		"team2_max_expand"		"133"
-		
+
 		"playerpanels_kv"
 		{
 			"visible"			"0"
 			"wide"				"25"
 			"tall"				"50"
 			"zpos"				"1"
-		
+
 			"color_portrait_bg_red"				"119 62 61 255"
 			"color_portrait_bg_blue"			"62 81 101 255"
 			"color_portrait_bg_red_dead"		"79 54 52 255"
@@ -339,7 +339,7 @@
 			"percentage_health_low"				"0.3"
 			"color_portrait_blend_dead_red"		"255 255 255 255"
 			"color_portrait_blend_dead_blue"	"255 255 255 255"
-			
+
 			"playername"
 			{
 				"ControlName"			"CExLabel"
@@ -384,7 +384,7 @@
 				"proportionaltoparent"	"1"
 			}
 			"healthbar"
-			{	
+			{
 				"ControlName"			"ContinuousProgressBar"
 				"fieldName"				"healthbar"
 				"font"					"Default"
@@ -404,7 +404,7 @@
 				"proportionaltoparent"	"1"
 			}
 			"overhealbar"
-			{	
+			{
 				"ControlName"			"ContinuousProgressBar"
 				"fieldName"				"overhealbar"
 				"font"					"Default"
@@ -624,13 +624,13 @@
 			"fieldName"		"BlueLeaderAvatar"
 			"xpos"			"11"
 			"ypos"			"10"
-			"zpos"			"5"	
+			"zpos"			"5"
 			"wide"			"35"
 			"tall"			"35"
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			""
-			"scaleImage"	"1"	
+			"scaleImage"	"1"
 			"color_outline"	"52 48 45 255"
 		}
 		"BlueLeaderAvatarBG"
@@ -768,7 +768,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"image"			""
-			"scaleImage"	"1"	
+			"scaleImage"	"1"
 			"color_outline"	"52 48 45 255"
 		}
 		"RedLeaderAvatarBG"
