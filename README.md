@@ -1,4 +1,5 @@
 miohud by turnip edited a bit to work better on aspect ratios other than 16:9 
+
 requires minmode 1
 
 original hud: https://gamebanana.com/mods/501897 i just edited positions
