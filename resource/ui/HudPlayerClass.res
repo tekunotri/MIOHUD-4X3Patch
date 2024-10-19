@@ -8,8 +8,8 @@
 		"enabled" "1"
 		"visible_minmode" "1"
 		"enabled_minmode" "1"
-		"xpos" "c-279.5"
-		"ypos" "c140"
+		"xpos" "-1"
+		"ypos" "-1"
 		"zpos" "0"
 		"wide" "50"
 		"tall" "12"
@@ -18,6 +18,7 @@
 		"image" "replay/thumbnails/speedometer"
 		"scaleimage" "1"
 		"drawcolor"	"Black"
+		"pin_to_sibling"	"speedometer"
 	}
 
 	"speedometer"
@@ -33,7 +34,7 @@
 		"zpos" "0"
 		"wide" "52"
 		"tall" "13"
-            "textAllignment" "center"
+        "textAllignment" "center"
 		"alpha" "255"
 		"image" "replay/thumbnails/speedometer"
 		"scaleimage" "1"
@@ -95,7 +96,7 @@
 		"tall"		"55"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"		"..\hud\disguised_icon"
+		"image"		"replay/thumbnails/disguised_icon"
 		"scaleImage"	"1"
 	}
 	"PlayerStatusClassImageBG"

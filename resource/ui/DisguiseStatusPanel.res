@@ -142,8 +142,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"220"
-		"ypos"			"114"
+		"xpos"			"50"
+		"ypos"			"c124"
 		"wide"			"35"
 		"tall"			"30"
 		"visible"			"1"
