@@ -689,7 +689,7 @@ Scheme
 			"5"
 			{
 				"name"		"MingLiU-ExtB"
-				"tall"		"26"
+				"tall"		"9"
 				"weight"	"0"
 				"antialias"	"1"
 			}
